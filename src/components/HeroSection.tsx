@@ -9,7 +9,7 @@ const LINES: Line[] = [
   { text: "$ whoami", isCmd: true },
   { text: "> Pranit Katwe — Data Scientist & AI Engineer", isCmd: false },
   { text: "$ cat status.txt", isCmd: true },
-  { text: "> Currently: Building AI pipelines and turning data into decisions ☕", isCmd: false },
+  { text: "> Currently: Building AI pipelines and turning data into decisions!", isCmd: false },
   { text: "$ cat focus.txt", isCmd: true },
   { text: "> Machine Learning · LLMs & Agents · Data Engineering · NLP", isCmd: false },
 ];
