@@ -66,6 +66,7 @@ function renderLine(line: Line) {
   }
 }
 
+
 export default function AboutSection() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
   const [revealed, setRevealed] = useState(0);
