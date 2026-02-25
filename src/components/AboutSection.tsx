@@ -32,7 +32,7 @@ const LINES: Line[] = [
   { t: "cmd",  text: "$ cat about.txt" },
   { t: "bio",  text: "> MS in Data Science @ University of Colorado Boulder" },
   { t: "bio",  text: "> 2+ years building ML systems, data pipelines, and AI agents" },
-  { t: "bio",  text: "> From multi-agent LLM systems to financial ETL pipelines \u2014" },
+  { t: "bio",  text: "> From multi-agent LLM systems to financial ETL pipelines" },
   { t: "bio",  text: "> I turn messy data into things that actually work in production" },
   { t: "bio",  text: "> Open to full-time roles in Data Science, ML Engineering & AI" },
   { t: "empty" },
