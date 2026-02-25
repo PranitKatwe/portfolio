@@ -14,7 +14,7 @@ const LINES: Line[] = [
   { t: "cmd" },
   { t: "empty" },
 
-  { t: "header", period: "Sep 2025 \u2013 Present", title: "Data Science Intern", company: "ExodusPoint Capital Management" },
+  { t: "header", period: "Sep 2025 \u2013 Present", title: "AI Intern", company: "ExodusPoint Capital Management" },
   { t: "loc",    text: "New York, NY" },
   { t: "bullet", text: "\u251c\u2500\u2500 Built parser framework for 68 vendor Excel formats across 20+ institutions into Snowflake schema" },
   { t: "bullet", text: "\u251c\u2500\u2500 Replaced $10K/month external vendor with in-house pipeline delivering ~$120K in annual cost savings" },
