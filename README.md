@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pranit Katwe — Portfolio
 
-## Getting Started
+Personal portfolio site built with a matte black terminal aesthetic.
 
-First, run the development server:
+## Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion v11 |
+| Scroll triggers | react-intersection-observer |
+| Font | JetBrains Mono |
+| Canvas effects | Browser Canvas 2D API |
+
+## Design
+
+- Background: `#0A0A0A` — matte black
+- Primary text: `#E8E8E8`
+- Accent: `#38BDF8` sky blue — used sparingly for `$` prompts, active nav, cursor
+- Font: JetBrains Mono everywhere
+- Max content width: 800px
+- No gradients, no glow, no percentage bars
+
+## Sections
+
+1. **Photo** — terminal scanline load + cursor-local binary spotlight on hover
+2. **Hero** — boot sequence + 6-line typewriter effect
+3. **About** — sequential terminal reveal (kv table + fun facts)
+4. **Education** — log format
+5. **Experience** — log format with bullet points
+6. **Skills** — animated ASCII tree view
+7. **Projects** — expandable directory listing
+8. **Contact** — sequential reveal
+
+## Dev
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev       # http://localhost:3000
+npm run build     # production build
+npm run lint      # ESLint
+npx tsc --noEmit  # type check
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
