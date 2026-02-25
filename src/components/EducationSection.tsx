@@ -32,7 +32,7 @@ function renderLine(line: Line) {
     );
     case "degree": return (
       <span className="pl-4">
-        <span className="text-[#444444]">\u2514\u2500\u2500 </span>
+        <span className="text-[#444444]">{"\u2514\u2500\u2500 "}</span>
         <span className="text-[#666666]">{line.text}</span>
       </span>
     );
