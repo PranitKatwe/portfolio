@@ -11,7 +11,7 @@ const projects = [
     description: "Filing-Delta Event Signal — a point-in-time event study testing whether year-over-year changes in SEC 10-K risk-factor text predict abnormal stock returns across the S&P 500. 480 companies, 4,705 filing events, strict no-lookahead design with trading costs included. The verdict is honest: the effect is real but weak and dies after costs (net spread +0.07%, p=0.51) — the deliverable is the research harness that can be trusted to say so. Live site features a grounded LLM narrator, citation-backed filing Q&A, and 13,208 Claude-labeled risk sentences.",
     stack: ["Python", "pandas", "statsmodels", "SEC EDGAR", "Event Study", "Vercel Serverless", "Claude API (Batch)", "GLM 5.2", "Vanilla JS"],
     github: "https://github.com/PranitKatwe/equity-filing-delta",
-    demo: "https://YOUR-VERCEL-URL.vercel.app",
+    demo: "https://equity-filing-delta.vercel.app/",
     status: "DEPLOYED",
     finished: true,
   },
