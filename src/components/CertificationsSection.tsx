@@ -23,9 +23,9 @@ const CERTS: Cert[] = [
   { date: "2023-05", name: "Introduction to Machine Learning", issuer: "Kaggle", url: "https://www.kaggle.com/learn/certification/pranitkatwe/intro-to-machine-learning" },
   { date: "2023-02", name: "Machine Learning Specialization", issuer: "DeepLearning.AI · Stanford", url: "https://www.coursera.org/account/accomplishments/specialization/QYEAK53PWY8Q" },
   { date: "2022-04", name: "Deep Learning Specialization", issuer: "DeepLearning.AI", url: "https://www.coursera.org/account/accomplishments/specialization/KUGJFW42Q9NT" },
-  { date: "2020-05", name: "Data Science Math Skills", issuer: "Duke University" },
-  { date: "2020-05", name: "Getting Started with AWS Machine Learning", issuer: "AWS" },
-  { date: "2020-04", name: "Cloud Computing Basics", issuer: "Coursera" },
+  { date: "2020-05", name: "Data Science Math Skills", issuer: "Duke University", url: "https://www.coursera.org/account/accomplishments/verify/CB5W874R27WW" },
+  { date: "2020-05", name: "Getting Started with AWS Machine Learning", issuer: "AWS", url: "https://www.coursera.org/account/accomplishments/verify/5DRD9ME79JTY" },
+  { date: "2020-04", name: "Cloud Computing Basics", issuer: "Coursera", url: "https://www.coursera.org/account/accomplishments/verify/Y4Q3FQ9UN3QE" },
   { date: "2020-04", name: "Stanford Online: Machine Learning", issuer: "Stanford", url: "https://www.coursera.org/account/accomplishments/verify/2XQJ7CU5K376" },
 ];
 
@@ -68,7 +68,7 @@ export default function CertificationsSection() {
                 <span className="text-[#666666] shrink-0">[{c.date}]</span>
                 <span className="text-[#E8E8E8] min-w-0">{c.name}</span>
                 <span className="text-[#444444] shrink-0 hidden sm:inline ml-auto">{c.issuer}</span>
-                {c.url ? (
+                {c.url && (
                   <a
                     href={c.url}
                     target="_blank"
@@ -77,8 +77,6 @@ export default function CertificationsSection() {
                   >
                     [verify]
                   </a>
-                ) : (
-                  <span className="text-[#2a2a2a] shrink-0 select-none">[——————]</span>
                 )}
               </span>
             </div>
