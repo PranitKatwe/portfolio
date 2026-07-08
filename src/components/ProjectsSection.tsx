@@ -6,6 +6,16 @@ import { useInView } from "react-intersection-observer";
 
 const projects = [
   {
+    id: "filing-delta",
+    dir: "equity-filing-delta/",
+    description: "Filing-Delta Event Signal — a point-in-time event study testing whether year-over-year changes in SEC 10-K risk-factor text predict abnormal stock returns across the S&P 500. 480 companies, 4,705 filing events, strict no-lookahead design with trading costs included. The verdict is honest: the effect is real but weak and dies after costs (net spread +0.07%, p=0.51) — the deliverable is the research harness that can be trusted to say so. Live site features a grounded LLM narrator, citation-backed filing Q&A, and 13,208 Claude-labeled risk sentences.",
+    stack: ["Python", "pandas", "statsmodels", "SEC EDGAR", "Event Study", "Vercel Serverless", "Claude API (Batch)", "GLM 5.2", "Vanilla JS"],
+    github: "https://github.com/PranitKatwe/equity-filing-delta",
+    demo: "https://YOUR-VERCEL-URL.vercel.app",
+    status: "DEPLOYED",
+    finished: true,
+  },
+  {
     id: "repo-oracle",
     dir: "repo-oracle/",
     description: "GitHub Intelligence MCP Server — 6-tool MCP server enabling LLMs to query GitHub repos inside Cursor IDE via FastMCP stdio. Built at Cursor Hackathon Denver 2025. Features PR risk detection, recursive git tree scanner, and TODO/FIXME scanner across 20+ file extensions, cutting redundant API calls by ~40%.",
