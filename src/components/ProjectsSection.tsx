@@ -118,7 +118,7 @@ export default function ProjectsSection() {
         style={{ color: "#141414" }}
         aria-hidden
       >
-        05
+        06
       </div>
 
       <div className="max-w-content mx-auto space-y-8" ref={ref}>

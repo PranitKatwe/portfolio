@@ -115,7 +115,7 @@ export default function SkillsSection() {
         style={{ color: "#141414" }}
         aria-hidden
       >
-        04
+        05
       </div>
 
       <div className="max-w-content mx-auto" ref={ref}>

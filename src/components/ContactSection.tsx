@@ -63,7 +63,7 @@ export default function ContactSection() {
         style={{ color: "#141414" }}
         aria-hidden
       >
-        06
+        07
       </div>
 
       <div className="max-w-content mx-auto" ref={ref}>

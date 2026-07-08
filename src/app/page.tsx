@@ -6,6 +6,7 @@ import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import EducationSection from "@/components/EducationSection";
+import CertificationsSection from "@/components/CertificationsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
@@ -30,6 +31,8 @@ export default function Home() {
       <AboutSection />
       <Divider />
       <EducationSection />
+      <Divider />
+      <CertificationsSection />
       <Divider />
       <ExperienceSection />
       <Divider />

@@ -88,7 +88,7 @@ export default function ExperienceSection() {
         style={{ color: "#141414" }}
         aria-hidden
       >
-        03
+        04
       </div>
 
       <div className="max-w-content mx-auto" ref={ref}>
